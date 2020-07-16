@@ -1,0 +1,16 @@
+# For more information on how to configure this file, please see:
+# https://docs.getdbt.com/docs/profile
+
+fivetran: #the profile attribute on the project.yml 
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: local-arcade
+      dataset: dbt # example dbt_gordyan
+      threads: 4
+      keyfile: service_account.json
+      timeout_seconds: 3600
+      priority: interactive
+      retries: 1
