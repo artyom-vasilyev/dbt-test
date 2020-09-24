@@ -10,8 +10,7 @@
 {{ config(materialized='table') }}
 
 
-select *
-from {{ ref('github_issues') }} 
+select '{{ env_var('AWS_ACCESS_KEY_ID') }}' as Column1
 
 /*
     Uncomment the line below to remove records with null `id` values
