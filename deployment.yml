@@ -1,5 +1,5 @@
 jobs:
-  - name: daytime
+  - name: test
     schedule: '*/5 * * * *'
     steps:
       - name: run models
