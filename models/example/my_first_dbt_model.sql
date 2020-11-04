@@ -10,10 +10,4 @@
 {{ config(materialized='table') }}
 
 
-select 1 as Column1
-
-/*
-    Uncomment the line below to remove records with null `id` values
-*/
-
--- where id is not null
+SELECT * FROM `properati-data-public.properties_br.properties_sell_201802`
