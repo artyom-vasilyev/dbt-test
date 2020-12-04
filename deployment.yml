@@ -4,3 +4,13 @@ jobs:
     steps:
       - name: run models
         command: dbt run
+  - name: S            P                 A                    C                     E
+    schedule: '0 */12 * * *'
+    steps:
+      - name: version
+        command: dbt --version
+  - name: ファイヴトラン
+    schedule: '0 */12 * * *'
+    steps:
+      - name: version
+        command: dbt --version
