@@ -1,3 +1,4 @@
+dbtVersion: 0.18.0
 jobs:
   - name: test
     schedule: '0 */6 * * *'
