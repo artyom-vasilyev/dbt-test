@@ -10,4 +10,5 @@
 {{ config(materialized='table') }}
 
 
-SELECT * FROM `properati-data-public.properties_br.properties_sell_201802`
+--SELECT * FROM `properati-data-public.properties_br.properties_sell_201802`
+SELECT 1
