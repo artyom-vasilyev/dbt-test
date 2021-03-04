@@ -11,4 +11,4 @@
 
 
 --SELECT * FROM `properati-data-public.properties_br.properties_sell_201802`
-SELECT 1 AS id
+SELECT 2 AS id
