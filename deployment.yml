@@ -2,6 +2,7 @@ dbtVersion: 0.19.0
 jobs:
   - name: test
     schedule: '0 */6 * * *'
+    targetName: target
     steps:
       - name: run models
         command: dbt run
