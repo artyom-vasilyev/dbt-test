@@ -4,15 +4,5 @@ jobs:
     schedule: '0 */6 * * *'
     targetName: target
     steps:
-      - name: run models
-        command: dbt run
-  - name: S            P                 A                    C                     E
-    schedule: '0 */12 * * *'
-    steps:
-      - name: version
-        command: dbt --version
-  - name: ファイヴトラン
-    schedule: '0 */12 * * *'
-    steps:
-      - name: version
-        command: dbt --version
+      - name: test
+        command: dbt test
